@@ -3,7 +3,13 @@
 	font-weight: bold;
 }
 
+.q_desc {
+    height: 60px;
+    width: 200px;
+}
+
 textarea {
+    margin: 1px;
     height: 20px;
 }
 
