@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Student</title>
+</head>
+<body onload="hideInitially()">
+
+	
+
+    <button id="backButton" class=homeButtons onclick="goBack()">Back</button>
+    <button id="submitButton" class=homeButtons onclick="markQuiz()">Submit</button>
+
+	<p id="noQuizFound"></p>
+
+    
+    <div id="q1">
+		<p id="q_num_1" class="question_num">Question 1</p>
+		<textarea oninput="increase_size(this)" type="text" id="q_desc_1" name="ta_1"></textarea>
+		<br/><br/>
+
+		<input class="radio" type="radio" id="r1_1" name="radio"/>
+        <textarea oninput="increase_size(this)" id="ta1_1" type="textr" name="ta_1"></textarea>
+        <br/>
+		
+        <input class="radio" type="radio" id="r2_1" name="radio"/>
+        <textarea oninput="increase_size(this)" id="ta2_1" type="textr" name="ta_1"></textarea>
+        <br/>
+		
+        <input class="radio" type="radio" id="r3_1" name="radio"/>
+        <textarea oninput="increase_size(this)" id="ta3_1" type="textr" name="ta_1"></textarea>
+        <br/>
+
+		<input class="radio" type="radio" id="r4_1" name="radio"/>
+        <textarea oninput="increase_size(this)" id="ta4_1" type="textr" name="ta_1"></textarea>
+        <br/>
+
+        
+	</div>
+	
+    
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+.question_num {
+	color: #a30707c9;
+	font-weight: bold;
+}
+
+textarea {
+    margin: 2px;
+    height: 20px;
+    resize: none;
+    overflow: hidden;
+}
+
+
+.addButton {
+    background-color: #17cf1d;
+}
+
+.saveButton {
+    background-color: #2275f1;
+}
+
+.deleteButton {
+    background-color: #f33e3e;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 6px;
+    border-radius: 20px;
+}
+
+.homeButtons, .submitButton {
+    background-color: #adadad;
+    color: black;
+}
